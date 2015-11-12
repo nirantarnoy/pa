@@ -1,0 +1,30 @@
+22500016595101101 --> 22500016595101
+22500016595101102 --> 22500016595101
+
+25000017511100101 ->25000017511100
+25000017511100201 ->25000017511100
+
+$(function(){
+   /* $("#modalProdcat").click(function(){
+                $("#mymodal").modal("show")
+                .find("#modalcontent")
+                .load($(this).attr("value"));
+    });*/
+    setActive();
+    $(".nav ul li a").click(function(){
+        $(".nav ul li a.active").removeClass('active');
+        $(this).addClass('active');
+    });
+    function setActive()
+    {
+        alert($("#id"));
+    }
+});
+
+
+
+yii2basic trainning
+
+
+https://github.com/yiisoft/yii2-app-basic
+https://github.com/yiisoft/yii2-app-advanced.git
